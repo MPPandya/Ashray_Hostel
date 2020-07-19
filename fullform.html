@@ -1,0 +1,294 @@
+<html>
+<head>
+<title>hostel booking form</title>
+
+<style>
+input[type=text],input[type=number
+],textarea, select {
+    width: 50%;
+	
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.div1 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	width:70%;
+	margin-left:200px;
+}
+
+
+</style>
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout1.css" rel="stylesheet" type="text/css" media="all">
+<link href="bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="s.css">
+</head>
+
+<body id="top" class="s" >
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+ <header id="header" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div id="logo" class="leftsrusti">
+	 <img src="logo11.png" class="img-responsive">
+ 
+     <!-- <h1><a href="index.html" color="white">ASHRAY HOSTEL</a></h1>
+      <p>Home Like Hostel</p-->
+    </div>
+    <div id="quickinfo" class="fl_right">
+      <ul class="nospace inline">
+        <li><a href="fullform.html" target="_blank"><button><strong>Book Now</strong></button></a></li>
+       
+      </ul>
+    </div>
+    <!-- ################################################################################################ -->
+  </header>
+  <nav id="mainav" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <ul class="clear">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a  href="form.html" target="_blank">ENQUIRY</a>
+       
+      </li>
+     
+	 <li><a  href="gallary.html">Gallary</a>
+        <!--<ul>
+          <li><a href="#">Address</a></li>
+          <li><a class="drop" href="#">Level 2 </a>
+            <ul>
+              <li><a href="#">Level 3</a></li>
+              <li><a href="#">Level 3</a></li>
+
+            </ul>
+          </li>
+          <li><a href="#">Level 2</a></li>
+        </ul>
+		-->
+      </li>
+      <li><a href="Contact Us.html">Contact Us</a></li>
+      <li><a href="Aboutt Us.html">About Us</a></li>
+      <li><a href="stu_profile.php" target="_blank">Login</a></li>
+      
+    </ul> 
+    <!-- ################################################################################################ -->
+  </nav>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+*<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+
+
+</br>
+</br>
+
+<div class="div1">
+
+<center><h3 style="margin-left:40px;font-family:Oregon LDO; font-size:2vw;"><u>Personal Information</u></h3></center>
+
+
+
+<form action="fullform.php" method="POST">
+
+
+
+<P style="margin-left:10px;font-size:1.5vw;"> <b>Enter full name:</b><br><input type="text" name="fullname" 
+minlength="2" maxlength="40" placeholder="eg. f.name m.name l.name" required style="font-size:1.5vw;border-radius:0px;"></input></p>
+
+<P style="margin-left:10px;font-size:1.5vw;"> <b>Enter address:&nbsp;&nbsp;&nbsp;</b>  </p>
+<textarea cols="45" rows="8" name="address" placeholder="enter your address"
+ minlength="2" maxlength="70" required ></textarea><br>
+
+<P style="margin-left:10px;font-size:1.5vw;"> <b> Enter Mobile No: </b><br><input type="number" name="mobileno" placeholder="eg. +91-9876685678" 
+   style="font-size:1.5vw;border-radius:0px;" required ></input></p><br>
+
+<P style="margin-left:10px;font-size:1.5vw;"> <b>Enter Email-id:&nbsp;&nbsp;&nbsp;&nbsp; </b>  <input type="email" name="email" placeholder="eg. ex@gmail.com"
+required style="font-size:1.5vw;border-radius:0px;">
+</input></p><br>
+
+
+<P style="margin-left:10px;font-size:1.5vw;"> <b>Enter D.O.B: </b>
+<input type="date" name="date" required style="font-size:1.5vw;border-radius:0px;"></input></p><br>
+
+<P style="margin-left:10px;font-size:1.5vw;"> <b>Nationality :</b> <br> 
+<input type="text" name="nationality" minlength="2" maxlength="20" placeholder="eg. indian"  style="font-size:1.5vw;border-radius:0;px"></input></p>
+
+<P style="margin-left:10px;font-size:1.5vw;"> <b>Select package:</b>&nbsp;&nbsp;&nbsp;&nbsp;
+<select name= "package" required> 
+  <option value="2400 per month with breakfast">2400 per month with breakfast</option>
+</select></p><br>
+
+<P style="margin-left:10px;font-size:1.5vw;"> <b>Blood Group:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<select name= "bloodgroup" required> 
+   <option value="a+">a+</option>
+</select></p><br>
+
+<!--<input type="submit" value="NEXT" style="text-align:right;font-size:1.5vw;margin-left:420px;
+ margin-top:10px; background-color:4CAF50;color:white;" >  </input>-->
+ </div> 
+  </br>
+  </br>
+  
+</div>
+  
+
+<div class="div1">
+<center><h3 style="margin-left:40px;font-family:Oregon LDO;font-size:2vw;"><u>Gaurdian/Parents Information</u></h3></center>
+
+
+<P style="margin-left:10px;font-size:1.5vw;"> <b>Enter Gaurdian/Parent full name:&nbsp;&nbsp;&nbsp;</b></br>  
+<input type="text" name="gaurdianname" placeholder="eg. f.name m.name l.name" size="30" required style="font-size:1.5vw;border-radius:0px;"></input></p>
+
+<P style="margin-left:10px;font-size:1.5vw;"><b> Enter Gaurdian/Parent address:</b>  </p></br></br>
+<p style="margin-left:10px;border-radius:0px;"><textarea cols="67" rows="8" name="gaddress" placeholder="enter your address"
+ required></textarea></p>
+
+ <P style="margin-left:10px;font-size:1.5vw;"> <b>Relationship : &nbsp;&nbsp;&nbsp;&nbsp;</b>  <br>     
+ <input type="text" name="relationship"placeholder="eg. father" style="font-size:1.5vw;border-radius:0px"></input></p>
+
+ <P style="margin-left:10px;font-size:1.5vw;"> <b>Enter Gaurdian/Parent</br> Mobile No : &nbsp;&nbsp;&nbsp;&nbsp; </b>     <br>
+ <input type="text" name="gmobileno" placeholder="eg. +91-1234567890" style="font-size:1.5vw;border-radius:0px" required></input></p>
+
+ <P style="margin-left:10px;font-size:1.5vw;"><b> Enter Email-id: &nbsp;&nbsp;&nbsp;&nbsp;   </b>      <br> 
+<input type="email" name="gemail" placeholder="eg. ex@gmail.com" style="font-size:1.5vw;border-radius:0px" required ></input></p>
+
+<P style="margin-left:10px;font-size:1.5vw;"> <b>Occupation: &nbsp;</b><br>
+<input type="text" name="occupation" size="4" placeholder="eg. businessman" style="font-size:1.5vw;border-radius:10px"></input></p>
+
+<P style="margin-left:10px;font-size:1.5vw;"> <b>Annual</br> Income:</b><br>
+<input type="text" name="annual_income" size="5" placeholder="eg. rs.12345" style="font-size:1.5vw;border-radius:0px;"></input></p>
+</div>
+<br><br>
+
+
+
+<div class="div1">
+<center><h3 style="margin-left:40px;font-family:Oregon LDO;font-size:2vw;"><u>Local Gaurdian Information</u></h3></center>
+<br>
+
+<P style="margin-left:10px;font-size:1.5vw;"> <b>Enter Local Gaurdian full name:&nbsp;&nbsp;&nbsp;</b></br>  <input type="text" name="lgname" placeholder="eg. f.name m.name l.name" size="30" required style="font-size:1.5vw;border-radius:0px"></input></p>
+<P style="margin-left:10px;font-size:1.5vw;"><b> Enter  Local Gaurdian address:</b>  </p><p style="border-radius:0px;"><textarea cols="67" rows="8" placeholder="enter your address" name="lgaddress" required></textarea></p>
+<P style="margin-left:10px;font-size:1.5vw;"> <b>Relationship : </b><br>        <input type="text" name="relationship" placeholder="eg. uncle"  style="font-size:1.5vw;border-radius:0px"></input></p>
+<P style="margin-left:10px;font-size:1.5vw;"> <b>Enter Local Gaurdian Mobile No : &nbsp;&nbsp;&nbsp;&nbsp; </b><br>       <input type="text" name="lgmobileno" placeholder="eg. +91-1234567890" required style="font-size:1.5vw;border-radius:0px"></input></p>
+<P style="margin-left:10px;font-size:1.5vw;"><b> Enter Email-id: &nbsp;&nbsp;&nbsp;&nbsp;   </b><br>       <input type="text" name="lgemail" placeholder="eg. ex@gmail.com" required style="font-size:1.5vw;border-radius:0px"></input></p>
+
+<!--<input type="submit" value="NEXT" style="text-align:right;font-size:1.5vw;margin-left:950px; 
+margin-top:30px;background-color:4CAF50;color:white;" ></input>-->
+</div>
+</br>
+</br>
+</br>  
+
+<div class="div1">
+<center><h3 style="margin-left:40px;font-family:Oregon LDO;font-size:2vw;"><u>Educational Information</u></h3></center>
+
+<P style="margin-left:10px;font-size:1.5vw;"><b> Enter Your College name:&nbsp;&nbsp;&nbsp;</b><br>  <input type="text" placeholder="enter your college name" name="cname" style="font-size:2vw;border-radius:0px" required></input></p>
+<P style="margin-left:10px;font-size:1.5vw;"><b> Enter Your College address:</b></p> <p style="margin-left:10px;border-radius:0px;"><textarea cols="45"  rows="8" placeholder="enter your college address" name="caddress" required></textarea></p>
+<P style="margin-left:10px;font-size:1.5vw;"><b>Select Degree:</b>&nbsp;&nbsp;&nbsp;&nbsp; <select name= "degree" required> 
+<option value="Diploma">Diploma</option>
+<option value="B.E.">B.E.</option>
+</select></p>
+<P style="margin-left:10px;font-size:1.5vw;"><b>Select Branch:</b>&nbsp;&nbsp;&nbsp;&nbsp; <select name= "branch" required> 
+<option value="Information Technology">Information Technology</option>
+<option value="Mechanical">Mechanical</option>
+</select></p>
+<P style="margin-left:10px;font-size:1.5vw;"><b>Select Year:</b>&nbsp;&nbsp;&nbsp;&nbsp; <select name= "year" required > 
+<option value="F.Y.">F.Y.</option>
+<option value="S.Y.">S.Y.</option>
+<option value="T.Y.">T.Y.</option>
+<option value="fourth year">Fourth Year</option>
+</select></p>
+
+
+<input type="submit" value="NEXT" name="submit" style="text-align:center;font-size:1.5vw;margin-left:300px;
+ margin-top:50px;background-color:4CAF50;color:white;" ></input>
+ </div>
+ </form>
+ </center><br>
+ 
+ <footer>
+    <div class="container">
+        <div class="float-left">
+            <img src="logo11.png" class="img-responsive">
+        </div>
+        <!--ul class="social-links ">
+                                <li><a target="_blank" href="#"><i class="icons fa fa-facebook"></i></a></li>
+                                <li><a target="_blank" href="#"><i class="icons fa fa-twitter"></i></a></li>
+                                <li><a target="_blank" href="#"><i class="icons fa fa-instagram"></i></a></li>                              
+                                <li><a target="_blank" href="#"><i class="icons fa fa-linkedin "></i></a></li>
+                                <li><a target="_blank" href="#"><i class="icons fa fa-pinterest-p"></i></a></li>
+                                <li><a target="_blank" href="#"><i class="icons fa fa-tumblr"></i></a></li>
+                                <li><a target="_blank" href="#"><i class="icons fa fa-youtube"></i></a></li>
+                                <li><a target="_blank" href="#"><i class="icons fa fa-tripadvisor"></i></a></li>
+                    </ul-->
+      <ul class="social-links ">
+    <li><a href="https://www.facebook.com/pages/Aashray-Hostel/1494230720791006" target="_blank"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="https://twitter.com/AashrayHostel" target="_blank"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="https://plus.google.com/u/0/100039931619072837747/posts" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+    <li ><a href="https://www.tripadvisor.in/Hotel_Review-g297613-d10295559-Reviews-Aashray_Hostel-Vadodara_Gujarat.html" target="_blank">
+      <i class="icons fa fa-tripadvisor"></i></a></li>
+    <li class="social-pinterest"><a href="https://in.pinterest.com/aashrayhostel/pins/" target="_blank">
+      <i class="icons fa fa-pinterest-p"></i></a></li>
+    <li class="social-instagram"><a href="https://www.instagram.com/aashrayhostel/?hl=en" target="_blank">
+       <i class="icons fa fa-instagram"></i></a></a></li>
+    <li class="social-tumblr"><a href="https://www.tumblr.com/blog/aashrayahostel" target="_blank">
+      <i class="fa fa-tumblr" aria-hidden="true"></i></a></li>
+    <li class="social-tumblr"><a href="https://www.linkedin.com/company/ashrayhostel/" target="_blank">
+      <i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+  </ul>
+    </div>
+</footer>
+
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#"><b>Ashray Hostel</b></a></p>
+    <p class="fl_right">Powered by <a target="_blank" href="#" title="Team"><b>Little Home</b></a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+
+ </body>
+ </html>
+
+ 
+ 
